@@ -41,6 +41,7 @@ const SignUp: React.FC = () => {
             </View>
 
             <Form
+              style={{ width: '100%' }}
               ref={formRef}
               onSubmit={data => {
                 console.log(data);
